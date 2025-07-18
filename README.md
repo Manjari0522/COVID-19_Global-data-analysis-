@@ -7,12 +7,12 @@ with a focus on country-level insights into cases, deaths, and trends over time.
 <a href= "https://github.com/Manjari0522/COVID-19_Global-data-analysis-/blob/main/covid19_global.csv">COVID-19 Global Data by WHO</a>
 
 ## Tools & Technologies
--MySQL: SQL queries for aggregating and cleaning data (optional pre-processing stage)
--Python: For EDA and coding 
--pandas: Data manipulation and wrangling
--matplotlib: Core plotting library
--seaborn: Statistical data visualization
--numpy: Numerical operations
+- MySQL: SQL queries for aggregating and cleaning data (optional pre-processing stage)
+- Python: For EDA and coding 
+- pandas: Data manipulation and wrangling
+- matplotlib: Core plotting library
+- seaborn: Statistical data visualization
+- numpy: Numerical operations
 
 ## Key Visualizations & Analysis
 1. Global and Country Trends
@@ -37,6 +37,14 @@ with a focus on country-level insights into cases, deaths, and trends over time.
 5. Multivariate Relationships
 - Pair Plot: Pairwise feature relationships
 - Heatmap: Correlation among numerical features (e.g., cumulative cases, deaths)
+
+  ## Summary and Key Takeaways
+  This project presents a comprehensive exploratory data analysis (EDA) of the COVID-19 global dataset, with a strong emphasis on country-wise comparisons and temporal trends.
+  The dataset was processed using pandas and visualized using matplotlib and seaborn to extract meaningful patterns in new cases, deaths, and cumulative statistics.
+Through various visualizations — including line plots, histograms, pie charts, bar charts, KDE plots, and heatmaps —
+we aimed to uncover how the pandemic evolved over time and how it impacted different regions.
+
+
 
 
 
