@@ -7,11 +7,36 @@ with a focus on country-level insights into cases, deaths, and trends over time.
 <a href= "https://github.com/Manjari0522/COVID-19_Global-data-analysis-/blob/main/covid19_global.csv">COVID-19 Global Data by WHO</a>
 
 ## Tools & Technologies
-MySQL: SQL queries for aggregating and cleaning data (optional pre-processing stage)
-pandas: Data manipulation and wrangling
-matplotlib: Core plotting library
-seaborn: Statistical data visualization
-numpy: Numerical operations
+-MySQL: SQL queries for aggregating and cleaning data (optional pre-processing stage)
+-Python: For EDA and coding 
+-pandas: Data manipulation and wrangling
+-matplotlib: Core plotting library
+-seaborn: Statistical data visualization
+-numpy: Numerical operations
+
+## Key Visualizations & Analysis
+1. Global and Country Trends
+- Line Plot: 7-day rolling average of new cases (per country)
+- Daily Trend: New cases/deaths for selected countries over time
+
+2. Top Countries Overview
+- Pie Chart: Top 10 countries by total confirmed cases
+- Bar Chart: Top 10 countries by cumulative deaths
+- Stacked Bar: Country-wise deaths comparison (e.g., India, Brazil, Italy)
+
+3. Distribution-Based Analysis
+- Histogram: Global distribution of daily new cases
+- KDE Plot: Smoothed distribution for survival or death cases (if available)
+- Box Plot: Comparing death rates before and after specific dates (e.g., April 2020)
+
+4. Categorical Insights
+- Count Plot: Report frequency by country
+- Bar Plot: Weekend vs. weekday report trends
+- Seaborn Color Palettes: Custom visual styling (Set2, viridis, coolwarm, etc.)
+
+5. Multivariate Relationships
+- Pair Plot: Pairwise feature relationships
+- Heatmap: Correlation among numerical features (e.g., cumulative cases, deaths)
 
 
 
